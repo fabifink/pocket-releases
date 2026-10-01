@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.8.0</title>
+      <pubDate>Thu, 01 Oct 2026 19:54:32 GMT</pubDate>
+      <sparkle:version>202610011948</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>Notifications without setup: Pocket Host releases carry a push key that only works for Pocket, so Pocket from TestFlight gets notifications on every Mac. A key entered under Notifications still takes precedence, for your own builds.</li>]]></description>
+      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.8.0-202610011948.dmg" sparkle:edSignature="7mDs11JqWzUxXE5RzFQFAJc6cmk4u67Yl8Mk6ROLJNJFnWxKIYOHupwSSnmxbAvtTSn0hIQ+qaBpYvgftbXhCA==" length="11187203" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.7.0</title>
       <pubDate>Thu, 01 Oct 2026 16:44:52 GMT</pubDate>
       <sparkle:version>202610011639</sparkle:version>
@@ -37,15 +46,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>Minor Changes</h3><li>Android app: Pocket for Android pairs by QR code, link or by hand and does what the iOS app does (workspaces, chats, questions, blocked actions, diffs, the pull request bar, sending with attachments), except push notifications.</li><h3>Patch Changes</h3><li>#25 `349db38` Thanks @grischaerbe! - On iOS, images in replies show again when they sit right under a line of text, such as a caption; they stayed empty before. Android already showed them.</li><li>&quot;Check for Updates…&quot; brings Pocket Host to the front, so Sparkle&#x27;s window no longer opens behind other windows.</li><li>#25 `349db38` Thanks @grischaerbe! - When a turn is over but the agent still waits on background tasks, the chat on iOS and Android shows &quot;Waiting for task …&quot; with how long it has waited, like Conductor, and the stop button stays. The notification comes when the tasks are done.</li><li>Chats that wait on a subagent or background command show as running, as in Conductor, instead of as idle.</li>]]></description>
       <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.4.0-202610011053.dmg" sparkle:edSignature="cvYf4N2xIPwXqPOw4XrPJszPzQ+0LPnYqOT+5WKx4Vd2qmC+OsOgntEzrw8ljFBgjiKPQOip6t9/7ilX9KH1Aw==" length="11157751" type="application/octet-stream"/>
-    </item>
-    <item>
-      <title>Pocket Host 0.3.0</title>
-      <pubDate>Thu, 01 Oct 2026 08:27:33 GMT</pubDate>
-      <sparkle:version>202610010821</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Minor Changes</h3><li>`5e92bee` - Pocket Host updates itself: it checks for new versions every six hours and installs them, and the panel shows the version with &quot;Check for Updates…&quot;.</li>]]></description>
-      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.3.0-202610010821.dmg" sparkle:edSignature="xEcUNc7svq1/sh2hqpja3BjPTMBtrRbUZLvIsSJ/pW4CmUaffQUcn0GpM63wvZLgDWZMLHA/4lqYU3cO1ea8Dg==" length="11159418" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
