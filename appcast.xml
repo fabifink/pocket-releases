@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.5.0</title>
+      <pubDate>Thu, 01 Oct 2026 11:20:39 GMT</pubDate>
+      <sparkle:version>202610011114</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>Android app: tells you when a new version is out (&quot;Pocket 0.5.0 is available&quot; with Download over the workspace list), and Settings shows the installed version with &quot;Check for updates&quot;.</li><li>The phone apps only connect over https (Tailscale Serve), so the pairing token never crosses a network in the clear. An http address is refused with &quot;Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.&quot;</li><h3>Patch Changes</h3><li>Android app: connects only over https (Tailscale Serve); a pairing with a plain http address says &quot;Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.&quot;</li>]]></description>
+      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.5.0-202610011114.dmg" sparkle:edSignature="a8oUK7Ss7C+iXJs6Qpi3Mv+h96c8oV68MOtwVsu0se8PxfGrYCpUEgDAwv8l+xmjyEdCFwR4joyFPs8FTo76Bg==" length="11159833" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.4.0</title>
       <pubDate>Thu, 01 Oct 2026 10:59:15 GMT</pubDate>
       <sparkle:version>202610011053</sparkle:version>
