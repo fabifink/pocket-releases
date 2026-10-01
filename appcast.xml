@@ -2,5 +2,14 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Pocket Host</title>
+    <item>
+      <title>Pocket Host 0.3.0</title>
+      <pubDate>Thu, 01 Oct 2026 08:27:33 GMT</pubDate>
+      <sparkle:version>202610010821</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>`5e92bee` - Pocket Host updates itself: it checks for new versions every six hours and installs them, and the panel shows the version with &quot;Check for Updates…&quot;.</li>]]></description>
+      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.3.0-202610010821.dmg" sparkle:edSignature="xEcUNc7svq1/sh2hqpja3BjPTMBtrRbUZLvIsSJ/pW4CmUaffQUcn0GpM63wvZLgDWZMLHA/4lqYU3cO1ea8Dg==" length="11159418" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
