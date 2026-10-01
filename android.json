@@ -1,6 +1,6 @@
 {
-  "versionName": "0.7.0",
-  "versionCode": 29847871,
-  "url": "https://fabifink.github.io/pocket-releases/Pocket-0.7.0.apk",
-  "notes": "• A proper image viewer: pinch and double-tap to zoom in full resolution, swipe between a prompt's images (also the ones picked for the next prompt, from the message box), swipe down to close, and Share, Save Image and Save to Files. Quick Look on iOS (images from the web open too now), Telephoto on Android.\n• Replies stay unread when you leave a chat on the phone while the agent works: Conductor on the Mac moves to a quiet chat (or out of the way) instead of marking them read with nobody looking. Needs the matching Pocket Host.\n• The workspace list looks like Mail: a plain list under a large \"Workspaces\" title instead of gray cards. Each workspace leads with its pull request as Conductor draws it, on a disk in the PR's color. A green ring turns around it while an agent works, and a badge shows when the agent asks you something or failed. A blue dot before the name marks unread replies, like Mail, and each row shows when the workspace last changed.\n• New workspaces no longer need a first message: leave it empty and Conductor creates the workspace without starting the agent. Needs the matching Pocket Host."
+  "versionName": "0.8.0",
+  "versionCode": 29848062,
+  "url": "https://fabifink.github.io/pocket-releases/Pocket-0.8.0.apk",
+  "notes": "• Notifications without setup: Pocket Host releases carry a push key that only works for Pocket, so Pocket from TestFlight gets notifications on every Mac. A key entered under Notifications still takes precedence, for your own builds."
 }
