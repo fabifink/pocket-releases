@@ -4,10 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pocket downloads</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
   body { font: 16px/1.5 -apple-system, system-ui, sans-serif; max-width: 34rem; margin: 4rem auto; padding: 0 1.25rem; color: #1d1d1f; }
   @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; } .card { background: #1c1c1e !important; } }
-  h1 { font-size: 1.8rem; margin-bottom: .25rem; }
+  header { display: flex; align-items: center; gap: .9rem; }
+  header img { width: 72px; height: 72px; }
+  h1 { font-size: 1.8rem; margin: 0; }
   .card { background: #f5f5f7; border-radius: 14px; padding: 1.1rem 1.25rem; margin: 1rem 0; }
   .card h2 { font-size: 1.1rem; margin: 0 0 .25rem; }
   a.button { display: inline-block; margin-top: .6rem; padding: .55rem 1rem; border-radius: 10px; background: #0071e3; color: #fff; text-decoration: none; font-weight: 600; }
@@ -15,8 +19,13 @@
 </style>
 </head>
 <body>
-<h1>Pocket</h1>
-<p class="muted">Control the Conductor workspaces on your Mac from your phone.</p>
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>Pocket</h1>
+    <p class="muted" style="margin:0">Control the Conductor workspaces on your Mac from your phone.</p>
+  </div>
+</header>
 
 <div class="card" id="mac">
   <h2>Pocket Host for Mac</h2>
