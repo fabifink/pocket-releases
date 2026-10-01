@@ -3,6 +3,15 @@
   <channel>
     <title>Pocket Host</title>
     <item>
+      <title>Pocket Host 0.6.0</title>
+      <pubDate>Thu, 01 Oct 2026 12:04:10 GMT</pubDate>
+      <sparkle:version>202610011158</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Minor Changes</h3><li>Android app: updates install from inside the app. &quot;Update&quot; downloads the new version, checks it&#x27;s Pocket signed with the same key, and hands it to Android, so you only confirm &quot;Update this app?&quot;; &quot;Open in browser&quot; stays as the fallback.</li>]]></description>
+      <enclosure url="https://fabifink.github.io/pocket-releases/Pocket-Host-0.6.0-202610011158.dmg" sparkle:edSignature="kaiVspSjY4Co7JjLQ3dQMAfpHonlcKLQPpnRR0GAhs/9Q+DkkewNBmvJ4sbnJcuKn+lusMYKgGa156x4VS41Dg==" length="11159830" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Pocket Host 0.5.0</title>
       <pubDate>Thu, 01 Oct 2026 11:20:39 GMT</pubDate>
       <sparkle:version>202610011114</sparkle:version>
