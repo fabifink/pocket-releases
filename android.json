@@ -1,6 +1,6 @@
 {
-  "versionName": "0.5.0",
-  "versionCode": 29847547,
-  "url": "https://fabifink.github.io/pocket-releases/Pocket-0.5.0.apk",
-  "notes": "• Android app: tells you when a new version is out (\"Pocket 0.5.0 is available\" with Download over the workspace list), and Settings shows the installed version with \"Check for updates\".\n• The phone apps only connect over https (Tailscale Serve), so the pairing token never crosses a network in the clear. An http address is refused with \"Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.\"\n• Android app: connects only over https (Tailscale Serve); a pairing with a plain http address says \"Pocket only connects over https. Turn on Tailscale Serve in Pocket Host and scan its code again.\""
+  "versionName": "0.6.0",
+  "versionCode": 29847591,
+  "url": "https://fabifink.github.io/pocket-releases/Pocket-0.6.0.apk",
+  "notes": "• Android app: updates install from inside the app. \"Update\" downloads the new version, checks it's Pocket signed with the same key, and hands it to Android, so you only confirm \"Update this app?\"; \"Open in browser\" stays as the fallback."
 }
